@@ -6,9 +6,7 @@ import (
 	"net/http"
 )
 
-// main — с этого начинается программа
 func main() {
-	// Читаем настройки из config.env
 	cfg := loadConfig("config.env")
 	ctx := context.Background()
 	// Подключаемся к базе
